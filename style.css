@@ -171,6 +171,7 @@ input[type=button]{
     
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background: #fff;
+    border-radius: 25px;
     
 }
 
@@ -178,6 +179,7 @@ input[type=button]{
     display: flex;
     width: 100px;
     animation: slide 20s infinite;
+    
     
 }
 
@@ -203,11 +205,26 @@ input[type=button]{
 }
 .maq{
     padding: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 1px double;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    border: 1px groove;
     border-radius: 100px;
     margin: 10px;
+    
 }
 .part{
-    padding: 10px;
+    padding-bottom: 20px;
+
 }
+.par{
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+
+
+
